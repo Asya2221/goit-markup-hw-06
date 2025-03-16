@@ -281,6 +281,14 @@ ul {
     max-width: 320px;
 }
 
+@media (min-resolution: 2dppx) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/Dark2t.jpg);
+    }
+}
+
 .hero-title {
     font-weight: 700;
     /* font-size: 56px;
@@ -408,6 +416,7 @@ ul {
     flex-wrap: wrap;
     align-items: center;
     gap: 72px;
+    justify-content: center;
 }
 
 .team-item {
@@ -1012,6 +1021,14 @@ ul {
             url(../images/Dark.plansh.jpg);
     }
 
+    @media (min-resolution: 2dppx) {
+        .hero {
+             background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                     rgba(46, 47, 66, 0.7)),
+                 url(../images/Dark2p.jpg);
+         }
+    }
+
     .hero-title {
         font-size: 56px;
         line-height: 1.07;
@@ -1032,7 +1049,7 @@ ul {
     }
 
     .team {
-        padding: 54px 0 138px 0;
+        padding: 96px 0;
     }
 
     .team-list {
@@ -1139,6 +1156,14 @@ ul {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                  rgba(46, 47, 66, 0.7)),
             url(../images/people.office.jpg);
+    }
+
+    @media (min-resolution: 2dppx) {
+        .hero {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                    rgba(46, 47, 66, 0.7)),
+                url(../images/people3d.jpg);
+        }
     }
     
     .hero-title {
